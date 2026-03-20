@@ -1,0 +1,32 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "~/.config/fastfetch/ascii/arch.txt",
+    "height": 22,
+    "padding": { "bottom": 1 }
+  },
+  "display": { "separator": " " },
+  "modules": [
+    // SYSTEM INFO
+    { "key": "╭──────────────╮", "type": "custom" },
+    { "key": "│ System       │", "type": "kernel" },
+    { "key": "│ ├  User     │", "type": "title", "format": "{user-name}" },
+    { "key": "│ ├ 󰇅 Hostname │", "type": "title", "format": "{host-name}" },
+    { "key": "│ ├ 󰅐 Uptime   │", "type": "uptime" },
+    { "key": "│ ├  Distro   │", "type": "os" },
+    { "key": "│ ├  WM       │", "type": "wm" },
+    { "key": "│ ├ 󰑩 Wifi     │", "type": "wifi" },
+    { "key": "│ ├ 󰩟 IP       │", "type": "localip" },
+    { "key": "│ ├  Terminal │", "type": "terminal" },
+    { "key": "│ ╰  Shell    │", "type": "shell" },
+    { "key": "├──────────────┤", "type": "custom" },
+    { "key": "│ Hardware     │", "type": "custom" },
+    { "key": "│ ├ 󰍛 CPU      │", "type": "command", "text": "grep -m1 'model name' /proc/cpuinfo | cut -d: -f2 | sed 's/^ //'" },
+    { "key": "│ ├ 󰢮 GPU      │", "type": "gpu", "format": "{name}" },
+    { "key": "│ ├  Display  │", "type": "monitor", "format": "{width}x{height} @ {refresh-rate}Hz" },
+    { "key": "│ ├  RAM      │", "type": "memory" },
+    { "key": "│ ├ 󰓡 Swap     │", "type": "swap" },
+    { "key": "│ ╰ 󰉉 Disk     │", "type": "disk", "folders": "/" },
+    { "key": "╰──────────────╯", "type": "custom" }
+  ]
+}
