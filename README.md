@@ -2,6 +2,8 @@
 
 Requirements:
 
+**bash**: i used 0xProto Nerd Font from `https://www.nerdfonts.com/font-downloads` and activated in the current profile
+
 **starship**: `curl -sS https://starship.rs/install.sh | sh`
 
 **fastfetch**: `dnf install fastfetch`
