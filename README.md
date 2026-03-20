@@ -1,6 +1,5 @@
-# fedora-configs
-my configs i use for fedora kde
------------------------
+# fedora(kde)-configs
+
 Locations of the configs: 
 
 **bash**: `~/.bashrc`
