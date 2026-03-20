@@ -1,6 +1,12 @@
 # fedora(kde)-configs
 
-##Locations of the configs: 
+Requirements:
+
+**starship**: `curl -sS https://starship.rs/install.sh | sh`
+
+**fastfetch**: `dnf install fastfetch`
+
+Locations of the configs: 
 
 **bash**: `~/.bashrc`
 
