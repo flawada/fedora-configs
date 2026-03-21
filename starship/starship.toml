@@ -41,7 +41,7 @@ format = '[$duration  ]($style)'
 style = 'fg:248 bg:color_bg'
 
 [status]
-disabled = false
+disabled = true
 format = '[$symbol( $common_meaning)( $signal_name)( $signal_number)( $maybe_int) ]($style)'
 style = 'bold fg:160 bg:color_bg'
 success_style = 'bold fg:70 bg:color_bg'
