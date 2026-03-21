@@ -7,6 +7,7 @@
   },
   "display": { "separator": " " },
   "modules": [
+    { "key": "\n", "type": "custom" },
     { "key": "╭──────────────╮", "type": "custom" },
     { "key": "│ System       │", "type": "kernel" },
     { "key": "│ ├  User     │", "type": "title", "format": "{user-name}" },
@@ -20,7 +21,7 @@
     { "key": "│ ╰  Shell    │", "type": "shell" },
     { "key": "├──────────────┤", "type": "custom" },
     { "key": "│ Hardware     │", "type": "custom" },
-    { "key": "│ ├ 󰍛 CPU      │", "type": "command", "text": "grep -m1 'model name' /proc/cpuinfo | cut -d: -f2 | sed 's/^ //'" },
+    { "key": "│ ├ 󰍛 CPU      │", "type": "command", "text": "grep -m1 'model name' /proc/cpuinfo | cut -d: -f2 | sed 's/^ //'>
     { "key": "│ ├ 󰢮 GPU      │", "type": "gpu", "format": "{name}" },
     { "key": "│ ├  Display  │", "type": "monitor", "format": "{width}x{height} @ {refresh-rate}Hz" },
     { "key": "│ ├  RAM      │", "type": "memory" },
