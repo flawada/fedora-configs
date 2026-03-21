@@ -1,7 +1,7 @@
 Requirements:
 
-`dnf install fastfetch`
+`curl -sS https://starship.rs/install.sh | sh`
 
 Location of the config:
 
-`~/.config/fastfetch/config.jsonc`
+`~/.config/starship.toml`
