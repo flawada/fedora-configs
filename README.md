@@ -2,4 +2,4 @@
 
 works on other distrobutions but i did not test it
 
-not finished at all
+mainly for myself and not finished at all
