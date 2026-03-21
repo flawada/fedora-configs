@@ -7,7 +7,6 @@
   },
   "display": { "separator": " " },
   "modules": [
-    // SYSTEM INFO
     { "key": "╭──────────────╮", "type": "custom" },
     { "key": "│ System       │", "type": "kernel" },
     { "key": "│ ├  User     │", "type": "title", "format": "{user-name}" },
