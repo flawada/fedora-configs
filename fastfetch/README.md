@@ -1,6 +1,6 @@
 Requirements:
 
-`dnf install fastfetch`
+`sudo dnf install fastfetch`
 
 Location of the config:
 
